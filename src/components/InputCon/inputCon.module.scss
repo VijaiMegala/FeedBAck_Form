@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+  letter-spacing: 0.15px;
+  margin: 10px;
+  padding: 10px;
+//   height: 189px;
+  //   background-color: green;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(128, 128, 128, 1);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(128, 128, 128, 1);
+  box-shadow: 0px 4px 4px 0px rgba(128, 128, 128, 1);
+
+  &Main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &Footer {
+    // padding-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}

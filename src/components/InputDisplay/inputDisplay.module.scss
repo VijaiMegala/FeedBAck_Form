@@ -1,0 +1,49 @@
+.inputDisplayContainer {
+  width: 1123px;
+  min-height: 100vh;
+//   background-color: green;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Main {
+    width: 500px;
+    // min-height: 552px;
+    background-color: white;
+    border-radius: 10px;
+
+    &Header {
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      height: 54px;
+      width: 100%;
+      background-color: #5578f4;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 38.4px;
+      letter-spacing: 0.15px;
+
+      .EditIcon {
+        cursor: pointer;
+      }
+    }
+
+    .DefaultText {
+      height: 552px;
+      color: #5c5858;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 57.6px;
+      letter-spacing: 0.15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    //   background-color: aquamarine;
+    }
+  }
+}

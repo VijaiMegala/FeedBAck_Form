@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    color: #2B2B2B;
+    height: 50px;
+    cursor: pointer;
+    // background-color: mediumspringgreen;
+
+    &Input{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

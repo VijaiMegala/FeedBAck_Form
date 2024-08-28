@@ -1,0 +1,21 @@
+.container{
+    color: #504F4F;
+    width: 95px;
+    padding: 8px;
+    // background-color: green;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.15px;
+    border: 1px #504F4F solid;
+    cursor: pointer;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    // background-color: aquamarine;
+    height: 60px;
+}

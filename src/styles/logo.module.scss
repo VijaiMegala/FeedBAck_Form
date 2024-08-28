@@ -1,0 +1,14 @@
+.logo{
+    &Container{
+        // max-height: 64px;
+        width: 200px;
+        align-items: center;
+        // background-color: aqua;
+        display: flex;
+        gap: 10px;
+        font-family: 'roboto';
+        font-weight: 500;
+        color: black;
+        text-transform: uppercase;
+    }
+}

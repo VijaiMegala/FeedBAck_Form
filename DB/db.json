@@ -1,0 +1,25 @@
+{
+  "title": {
+    "title": "Generic website feedback"
+  },
+  "inputs": [
+    {
+      "type": "star-rating",
+      "title": "Star rating",
+      "id": 1724868936249,
+      "options": []
+    },
+    {
+      "type": "single-line-input",
+      "title": "Single line input",
+      "id": 1724868937893,
+      "options": []
+    }
+  ],
+  "logicDetails": {
+    "url": "Attendance system",
+    "date": "wer",
+    "time": "qerrrr"
+  },
+  "submission": {}
+}

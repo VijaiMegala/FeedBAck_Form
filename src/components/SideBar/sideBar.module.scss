@@ -1,0 +1,21 @@
+.sideBarContainer{
+    width: 317px;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.inputsContainer{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // background-color: aquamarine;
+
+    &Title{
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.15px;
+    }
+}

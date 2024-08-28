@@ -1,0 +1,55 @@
+.container{
+    // height: 200px;
+    // background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+
+    &Header{
+        // background-color: aquamarine;
+        color:#4B4949;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 25.6px;
+        letter-spacing: 0.15px;
+        cursor: pointer;
+        margin-left: -15px;
+    }
+
+    &Label{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: black;
+        opacity: 87%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        // width: 300px;
+        // background-color: aquamarine;
+    }
+
+    &Val{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    &HelperText{
+        color: black;
+        opacity: 60%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 0.15px;
+    }
+    
+    &Footer{
+        display: flex;
+        gap: 20px;
+    }
+}
