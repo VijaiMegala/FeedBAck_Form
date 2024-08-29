@@ -1,14 +1,14 @@
 import React from "react";
 import InputConStyles from "./inputCon.module.scss";
-import { TextAreaCom } from "../TextAreaCom/TextAreaCom";
+import { TextAreaCom } from "../InputTypes/TextAreaCom/TextAreaCom";
 import { MdEdit } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
-import { NumericRating } from "../NumericRating/NumericRating";
-import { StarRating } from "../StarRating/StarRating";
-import SmileyRating from "../SmileyRating/SmileyRating";
+import { NumericRating } from "../InputTypes/NumericRating/NumericRating";
+import { StarRating } from "../InputTypes/StarRating/StarRating";
+import SmileyRating from "../InputTypes/SmileyRating/SmileyRating";
 import { TextField } from "@mui/material";
 import RadioCom from "../RadioCom/RadioCom";
-import { CategoriesButtons } from "../CategoriesButton/CategoriesButtons";
+import { CategoriesButtons } from "../InputTypes/CategoriesButton/CategoriesButtons";
 
 export const InputCon = ({ title, type, onDelete, onEdit , options}) => {
 
